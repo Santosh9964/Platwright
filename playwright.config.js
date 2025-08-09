@@ -18,7 +18,7 @@ const config =({
   browserName: 'chromium',
   headless : false,
   screenshot : 'on',
-  trace : 'retain-on-failure' // only traces on failure...if u want forall just on
+  trace : 'on' //   retain-on-failure --only traces on failure...if u want forall just on
   },
 });
 
